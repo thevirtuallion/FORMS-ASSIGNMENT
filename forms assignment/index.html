@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <form action="https://formsubmit.co/b89075e6f0afdfe3c264f34be6f26dc6" method="POST">
+ 
+       
+    <div class="row">
+      <label for="name"> Name </label>
+      <div>
+        <input
+          id="name"
+          name="name"
+          type="text"
+          class="field text fn"
+          value=""
+          maxlength="55"
+          tabindex="1"
+          required
+        />
+      </div>
+    </div>
+    
+    <div class="row">
+      <label id="title3" for="my-email"> Email </label>
+      <div>
+        <input
+          id="my-email"
+          name="my-email"
+          type="email"
+          spellcheck="false"
+          placeholder="sampletext@gmail.com"
+          maxlength="255"
+          tabindex="3"
+          required
+        />
+      </div>
+    </div>
+   
+    <div class="row">
+      <label for="my-date"> Date </label>
+      <div>
+        <input
+          id="my-date"
+          name="my-date"
+          type="date"
+          spellcheck="false"
+          placeholder="11/03/2022"
+          maxlength="8"
+          tabindex="3"
+        />
+      </div>
+    </div>
+
+    
+    <div class="row">
+      <label for="message"> Message </label>
+      <div>
+        <textarea
+          id="message"
+          name="message"
+          spellcheck="true"
+          rows="10"
+          cols="50"
+          tabindex="4"
+          required
+        ></textarea>
+      </div>
+    </div>
+    <br />
+   
+    <div class="row">
+      <label for="cameras"> *Choose a camera from the list: </label>
+
+      <select name="cameras" id="cameras" required>
+        <option value="nikon">Nikon</option>
+        <option value="canon">Canon</option>
+        <option value="sony">Sony</option>
+        <option value="panasonic">Panasonic</option>
+      </select>
+    </div>
+    <br />
+   
+    <div>
+             
+      <input
+        type="checkbox"
+        id="TOS"
+        name="TOS"
+        value="I have completed all required fields"
+        required
+      />
+      <label for="TOS"> I have completed all required fields</label
+      ><br />
+      
+    
+    </div>
+    <br />
+    <div>
+      <input type="radio" id="dslr" name="fav_cam" value="DSLR" />
+      <label for="dslr">DSLR</label><br />
+      <input type="radio" id="mirrorless" name="fav_cam" value="Mirrorless" />
+      <label for="mirrorless">Mirrorless</label><br />
+      <input
+        type="radio"
+        id="beginner"
+        name="fav_cam"
+        value="Beginner"
+        
+      />
+      <label for="beginner">Beginner</label>
+    </div>
+    <br />
+    <div><input type="submit" /></div>
+  </form>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
